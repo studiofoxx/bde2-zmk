@@ -19,9 +19,9 @@
 // |  Y  | N1  | N3  |RCTRL|RSHFT|ENTER|BSPC |SPACE|RALT | CTL | ALT |SPACE|SHIFT|  Z  |
 // -------------------------------------------------------------------------------------
             bindings = <
-    &kp ESCAPE &kp TAB &kp F2 &kp N9    &kp N5    &kp P     &kp DELETE &kp PG_UP &kp PG_DN &kp ENTER &kp UP  &kp DOWN  &kp LEFT  &kp RIGHT
-    &kp A      &kp B   &kp C  &kp D     &kp E     &kp F     &kp G      &kp H     &kp I     &kp J     &kp K   &kp L     &kp M     &kp N
-    &kp Y      &kp N1  &kp N3 &kp RCTRL &kp RSHFT &kp ENTER &kp BSPC   &kp SPACE &kp RALT  &kp CTL   &kp ALT &kp SPACE &kp LSHFT &kp Z
+    &kp ESC &kp TAB &kp F2 &kp N9    &kp N5    &kp P     &kp DELETE &kp PG_UP &kp PG_DN &kp ENTER &kp UP   &kp DOWN  &kp LEFT  &kp RIGHT
+    &kp A   &kp B   &kp C  &kp D     &kp E     &kp F     &kp G      &kp H     &kp I     &kp J     &kp K    &kp L     &kp M     &kp N
+    &kp Y   &kp N1  &kp N3 &kp RCTRL &kp RSHFT &kp ENTER &kp BSPC   &kp SPACE &kp RALT  &kp LCTRL &kp LALT &kp SPACE &kp LSHFT &kp Z
             >;
         };
         
