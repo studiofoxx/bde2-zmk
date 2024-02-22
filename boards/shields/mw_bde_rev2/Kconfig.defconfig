@@ -1,0 +1,6 @@
+if SHIELD_MW_BDE_REV2
+            
+config ZMK_KEYBOARD_NAME
+    default "mw_bde_rev2"
+
+endif
