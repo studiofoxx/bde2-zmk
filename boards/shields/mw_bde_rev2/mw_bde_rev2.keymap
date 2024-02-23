@@ -2,20 +2,26 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+#define DEFAULT 0
+#define ALT1    1
+
 / {
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-// -------------------------------------------------------------------------------------
-// | ESC | TAB | F2  | N9  | N5  |  P  | DEL |PG_UP|PG_DN|ENTER|LEFT | UP  |DOWN |RIGHT|
-// |  A  |  B  |  C  |  D  |  E  |  F  |  G  |  H  |  I  |  J  |  K  |  L  |  M  |  N  |
-// |  Y  | N1  | N3  |RCTRL|RSHFT|ENTER|BSPC |SPACE|RALT |LCTRL|LALT |SPACE|LSHFT|  Z  |
-// -------------------------------------------------------------------------------------
             bindings = <
     &kp ESC &kp TAB &kp F2 &kp N9    &kp N5    &kp P     &kp DEL  &kp PG_UP &kp PG_DN &kp ENTER &kp LEFT &kp UP    &kp DOWN  &kp RIGHT
     &kp A   &kp B   &kp C  &kp D     &kp E     &kp F     &kp G    &kp H     &kp I     &kp J     &kp K    &kp L     &kp M     &kp N
-    &kp Y   &kp N1  &kp N3 &kp RCTRL &kp RSHFT &kp ENTER &kp BSPC &kp SPACE &kp RALT  &kp LCTRL &kp LALT &kp SPACE &kp LSHFT &kp Z
+    &lt 1 Y &kp N1  &kp N3 &kp RCTRL &kp RSHFT &kp ENTER &kp BSPC &kp SPACE &kp RALT  &kp LCTRL &kp LALT &kp SPACE &kp LSHFT &kp Z
+            >;
+        };
+
+        alt1_layer {
+            bindings = <
+    &kp ESC   &kp TAB   &kp OUT_BLE &out OUT_USB &bt BT_SEL 0 &bt BT_DISC 0 &bt BT_CLR &bt BT_NXT &bt BT_PRV &kp ENTER &kp HOME &kp C_BRI_UP &kp C_BRI_DN &kp END
+    &kp COMMA &kp SEMI  &kp O       &kp P        &kp Q        &kp R         &kp S      &kp T      &kp U      &kp V     &kp W    &kp X        &kp Y        &kp Z
+    &trans    &kp SLASH &kp SQT     &kp DOT      &kp CAPS     &kp ENTER     &kp BSPC   &kp SPACE  &kp RALT   &kp LCTRL &kp LALT &kp SPACE    &kp LSHFT    &kp Z
             >;
         };
         
