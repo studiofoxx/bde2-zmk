@@ -17,6 +17,12 @@
     &kp Y   &kp N1  &kp N3 &kp RCTRL &kp RSHFT &kp ENTER &kp BSPC &kp SPACE &kp RALT  &kp LCTRL &kp LALT &kp SPACE &kp LSHFT &kp Z
             >;
         };
-        
+        alt1_layer {
+            bindings = < 
+    &kp ESC &kp TAB &kp F2 &kp N9    &kp N5    &kp P     &kp DEL  &kp PG_UP &kp PG_DN &kp ENTER &kp LEFT &kp UP    &kp DOWN  &kp RIGHT
+    &kp A   &kp B   &kp C  &kp D     &kp E     &kp F     &kp G    &kp H     &kp I     &kp J     &kp K    &kp L     &kp M     &kp N
+    &kp Y   &kp N1  &kp N3 &kp RCTRL &kp RSHFT &kp ENTER &kp BSPC &kp SPACE &kp RALT  &kp LCTRL &kp LALT &kp SPACE &kp LSHFT &kp Z
+            >;
+        };
     };
 };
