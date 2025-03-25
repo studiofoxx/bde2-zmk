@@ -30,7 +30,7 @@
             bindings = <
     &kp ESC      &kp Q       &kp W        &kp E           &kp R          &kp T           &kp DEL     &kp PG_UP   &kp Y       &kp U        &kp LEFT   &kp UP       &kp DOWN     &kp RIGHT
     &lt 1 TAB    &kp A       &kp S        &kp D           &kp F          &kp G           &kp G       &kp H       &kp I       &kp J        &kp K      &kp L        &kp M        &kp ENTER
-    &lt 1        &lt 2       &kp X        &kp C           &kp V          &kp SPACE       &kp BSPC    &kp B       &kp N       &kp M        &kp ,      &kp .        &kp /        &kp LSHFT
+    &lt 1        &lt 2       &kp X        &kp C           &kp V          &kp SPACE       &kp BSPC    &kp B       &kp N       &kp M        &kp COMMA  &kp DOT      &kp FSLH     &kp LSHFT
             >;
         };
         alt1_layer {
