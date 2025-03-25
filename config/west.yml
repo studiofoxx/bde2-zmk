@@ -4,17 +4,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
-    - name: mechwild
-      url-base: https://github.com/mechwild
-    - name: lesshonor
-      url-base: https://github.com/lesshonor
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: mechwild-zmk-keyboards # Add the name of the repository as a project.
-      remote: lesshonor            # This has to match the name for the user you put in the "remote" earlier.
-      revision: main               # This is the the branch of the repository you need. Most of the time you can leave this as main.
   self:
     path: config
