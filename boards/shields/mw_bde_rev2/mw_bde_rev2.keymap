@@ -17,12 +17,5 @@
     &lt1     &kp Z  &kp X  &kp C   &kp V   &kp B   &kp BSPC &kp SPACE &kp N  &kp M  &kp ,  &kp .  &kp /   &kp LSHFT
             >;
         };
-        ALT1_layer {
-            bindings = < 
-    &kp ESC &kp 1   &kp 2  &kp 3     &kp 4     &kp 5     &kp 6    &kp 7     &kp 8     &kp 9     &kp 0    &kp UP    &kp DOWN  &kp RIGHT
-    &kp A   &kp B   &kp C  &kp D     &kp E     &kp F     &kp G    &kp H     &kp I     &kp J     &kp K    &kp L     &kp M     &kp N
-    &kp Y   &kp N1  &kp N3 &kp RCTRL &kp RSHFT &kp ENTER &kp BSPC &kp SPACE &kp RALT  &kp LCTRL &kp LALT &kp SPACE &kp LSHFT &kp Z
-            >;
-        };
     };
 };
