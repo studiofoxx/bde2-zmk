@@ -28,9 +28,9 @@
         default_layer {
             display-name = "default";
             bindings = <
-    &kp ESC      &kp TAB     &kp F2       &kp N9          &kp N5         &kp P           &kp DEL     &kp PG_UP   &kp PG_DN   &kp ENTER    &kp LEFT   &kp UP       &kp DOWN     &kp RIGHT
-    &kp A        &kp B       &kp C        &kp D           &kp E          &kp F           &kp G       &kp H       &kp I       &kp J        &kp K      &kp L        &kp M        &kp N
-    &lt 1 Y      &lt 2 N1    &mt LSHFT N3 &mt LCTRL RCTRL &mt LWIN RSHFT &mt LALT ENTER  &kp BSPC    &kp SPACE   &kp RALT    &kp LCTRL    &kp LALT   &kp SPACE    &kp LSHFT    &kp Z
+    &kp ESC      &kp Q       &kp W        &kp E           &kp R          &kp T           &kp DEL     &kp PG_UP   &kp Y       &kp U        &kp LEFT   &kp UP       &kp DOWN     &kp RIGHT
+    &lt 1 TAB    &kp A       &kp S        &kp D           &kp F          &kp G           &kp G       &kp H       &kp I       &kp J        &kp K      &kp L        &kp M        &kp ENTER
+    &lt 1        &lt 2       &kp X        &kp C           &kp V          &kp SPACE       &kp BSPC    &kp B       &kp N       &kp M        &kp ,      &kp .        &kp /        &kp LSHFT
             >;
         };
         alt1_layer {
@@ -38,7 +38,7 @@
             bindings = <
     &kp ESC      &kp TAB     &out OUT_BLE &out OUT_USB    &kp N5         &kp PAUSE_BREAK &bt BT_CLR  &bt BT_NXT  &kp K_MUTE  &kp ENTER    &kp HOME   &kp K_VOL_UP &kp K_VOL_DN &kp END
     &kp COMMA    &kp SEMI    &kp O        &kp P           &kp Q          &kp R           &kp S       &kp T       &kp U       &kp V        &kp W      &kp X        &kp Y        &kp Z
-    &trans       &trans      &trans       &trans          &trans         &trans          &trans      &trans      &trans      &trans       &trans     &trans       &trans       &kp K_CMENU
+    &trans       &trans      &trans       &trans          &trans         &trans          &trans      &trans      &trans      &trans       & RALT     & LCTRL       & LALT      &kp K_CMENU
             >;
         };
         alt2_layer {
