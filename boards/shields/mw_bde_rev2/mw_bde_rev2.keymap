@@ -15,7 +15,17 @@
     &kp ESC  &kp Q  &kp W  &kp E   &kp R   &kp T   &kp DEL  &kp PG_UP &kp Y  &kp U  &kp I  &kp O  &kp P   &kp BSPC
     &mo 1    &kp A  &kp S  &kp D   &kp F   &kp G   &kp G    &kp H     &kp H  &kp J  &kp K  &kp L  &kp M   &kp ENTER
     &lt1     &kp Z  &kp X  &kp C   &kp V   &kp B   &kp BSPC &kp SPACE &kp N  &kp M  &kp ,  &kp .  &kp /   &kp LSHFT
-            >;
-        };
+
+             >;
+         };
+ 
+         alt1_layer {
+             bindings = <
+     &kp ESC   &kp TAB   &out OUT_BLE &out OUT_USB &kp N5   &kp P     &bt BT_CLR &bt BT_NXT &kp PG_DN &kp ENTER &kp HOME &kp C_BRI_UP &kp C_BRI_DN &kp END
+     &kp COMMA &kp SEMI  &kp O        &kp P        &kp Q    &kp R     &kp S      &kp T      &kp U     &kp V     &kp W    &kp X        &kp Y        &kp Z
+     &trans    &kp SLASH &kp SQT      &kp DOT      &kp CAPS &kp ENTER &kp BSPC   &kp SPACE  &kp RALT  &kp LCTRL &kp LALT &kp SPACE    &kp LSHFT    &kp Z
+     &kp Y   &kp N1  &kp N3 &kp RCTRL &kp RSHFT &kp ENTER &kp BSPC &kp SPACE &kp RALT  &kp LCTRL &kp LALT &kp SPACE &kp LSHFT &kp Z
+             >;
+         };
     };
 };
